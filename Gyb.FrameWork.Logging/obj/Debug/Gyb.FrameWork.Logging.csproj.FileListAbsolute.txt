@@ -1,0 +1,4 @@
+D:\K3\Gyb.Platform\Gyb.FrameWork.Logging\bin\Debug\Gyb.FrameWork.Logging.dll
+D:\K3\Gyb.Platform\Gyb.FrameWork.Logging\bin\Debug\Gyb.FrameWork.Logging.pdb
+D:\K3\Gyb.Platform\Gyb.FrameWork.Logging\obj\Debug\Gyb.FrameWork.Logging.dll
+D:\K3\Gyb.Platform\Gyb.FrameWork.Logging\obj\Debug\Gyb.FrameWork.Logging.pdb

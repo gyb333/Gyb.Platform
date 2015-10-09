@@ -1,0 +1,4 @@
+D:\K3\Gyb.Platform\Gyb.FrameWork.Common\bin\Debug\Gyb.FrameWork.Common.dll
+D:\K3\Gyb.Platform\Gyb.FrameWork.Common\bin\Debug\Gyb.FrameWork.Common.pdb
+D:\K3\Gyb.Platform\Gyb.FrameWork.Common\obj\Debug\Gyb.FrameWork.Common.dll
+D:\K3\Gyb.Platform\Gyb.FrameWork.Common\obj\Debug\Gyb.FrameWork.Common.pdb

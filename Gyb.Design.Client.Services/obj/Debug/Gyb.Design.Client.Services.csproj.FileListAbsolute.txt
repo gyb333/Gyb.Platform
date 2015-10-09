@@ -1,0 +1,9 @@
+D:\K3\Gyb.Platform\Gyb.Design.Client.Services\obj\Debug\Gyb.Design.Client.Services.csprojResolveAssemblyReference.cache
+D:\K3\Gyb.Platform\Gyb.Design.Client.Services\bin\Debug\Gyb.Design.Client.Services.dll
+D:\K3\Gyb.Platform\Gyb.Design.Client.Services\bin\Debug\Gyb.Design.Client.Services.pdb
+D:\K3\Gyb.Platform\Gyb.Design.Client.Services\bin\Debug\Gyb.Design.Client.IServices.dll
+D:\K3\Gyb.Platform\Gyb.Design.Client.Services\bin\Debug\Gyb.Design.Client.Models.dll
+D:\K3\Gyb.Platform\Gyb.Design.Client.Services\bin\Debug\Gyb.Design.Client.IServices.pdb
+D:\K3\Gyb.Platform\Gyb.Design.Client.Services\bin\Debug\Gyb.Design.Client.Models.pdb
+D:\K3\Gyb.Platform\Gyb.Design.Client.Services\obj\Debug\Gyb.Design.Client.Services.dll
+D:\K3\Gyb.Platform\Gyb.Design.Client.Services\obj\Debug\Gyb.Design.Client.Services.pdb
