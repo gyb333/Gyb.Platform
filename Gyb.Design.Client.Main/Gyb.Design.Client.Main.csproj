@@ -94,24 +94,8 @@
       <Generator>MSBuild:Compile</Generator>
       <SubType>Designer</SubType>
     </ApplicationDefinition>
-    <Compile Include="Control\TreeViewControl.xaml.cs">
-      <DependentUpon>TreeViewControl.xaml</DependentUpon>
-    </Compile>
-    <Compile Include="Panel\PanesStyleSelector.cs" />
-    <Compile Include="Panel\PanesTemplateSelector.cs" />
-    <Compile Include="ViewModel\Base\DocumentViewModel.cs" />
-    <Compile Include="ViewModel\Base\PaneViewModel.cs" />
-    <Compile Include="ViewModel\Base\ToolViewModel.cs" />
     <Compile Include="ViewModel\MainViewModel.cs" />
     <Compile Include="ViewModel\ViewModelLocator.cs" />
-    <Compile Include="ViewModel\WindowsManagerViewModel.cs" />
-    <Compile Include="View\ProjectResourceManager.xaml.cs">
-      <DependentUpon>ProjectResourceManager.xaml</DependentUpon>
-    </Compile>
-    <Page Include="Control\TreeViewControl.xaml">
-      <SubType>Designer</SubType>
-      <Generator>MSBuild:Compile</Generator>
-    </Page>
     <Page Include="MainWindow.xaml">
       <Generator>MSBuild:Compile</Generator>
       <SubType>Designer</SubType>
@@ -127,10 +111,6 @@
     <Page Include="Skins\MainSkin.xaml">
       <Generator>MSBuild:Compile</Generator>
       <SubType>Designer</SubType>
-    </Page>
-    <Page Include="View\ProjectResourceManager.xaml">
-      <SubType>Designer</SubType>
-      <Generator>MSBuild:Compile</Generator>
     </Page>
   </ItemGroup>
   <ItemGroup>
@@ -161,6 +141,7 @@
   </ItemGroup>
   <ItemGroup>
     <Folder Include="Modules\" />
+    <Folder Include="View\" />
   </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="..\Gyb.Design.Client.IServices\Gyb.Design.Client.IServices.csproj">
@@ -171,26 +152,6 @@
       <Project>{dfd03303-5957-4b1e-8715-0d081a866650}</Project>
       <Name>Gyb.Design.Client.Models</Name>
     </ProjectReference>
-  </ItemGroup>
-  <ItemGroup>
-    <Resource Include="Resources\Menu\copy.png" />
-    <Resource Include="Resources\Menu\cut.png" />
-    <Resource Include="Resources\Menu\delete.png" />
-    <Resource Include="Resources\Menu\newFile.png" />
-    <Resource Include="Resources\Menu\newProject.png" />
-    <Resource Include="Resources\Menu\newTeamProject.png" />
-    <Resource Include="Resources\Menu\newWebSite.png" />
-    <Resource Include="Resources\Menu\openFile.png" />
-    <Resource Include="Resources\Menu\openProject.png" />
-    <Resource Include="Resources\Menu\openTeamProject.png" />
-    <Resource Include="Resources\Menu\openWebSite.png" />
-    <Resource Include="Resources\Menu\pageSetup.png" />
-    <Resource Include="Resources\Menu\paste.png" />
-    <Resource Include="Resources\Menu\print.png" />
-    <Resource Include="Resources\Menu\redo.png" />
-    <Resource Include="Resources\Menu\save.png" />
-    <Resource Include="Resources\Menu\saveAll.png" />
-    <Resource Include="Resources\Menu\undo.png" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 

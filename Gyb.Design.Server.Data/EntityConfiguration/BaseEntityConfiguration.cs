@@ -8,7 +8,7 @@ using System.Threading.Tasks;
 
 namespace Gyb.Design.Server.Data.EntityConfiguration
 {
-    public class BaseEntityConfiguration: EntityTypeConfiguration<BaseEntity>
+    public class BaseEntityConfiguration<T> : EntityTypeConfiguration<T> where T : class
     {
         public BaseEntityConfiguration()
         {

@@ -6,7 +6,6 @@
         xmlns:ignore="http://www.ignore.com"
         xmlns:avalonDock="http://schemas.xceed.com/wpf/xaml/avalondock"
         
-        xmlns:pane="clr-namespace:Gyb.Design.Client.Main.Panel"
         
         
         mc:Ignorable="d ignore"
@@ -39,97 +38,6 @@
             <RowDefinition Height="*"/>
             <RowDefinition Height="Auto"/>
         </Grid.RowDefinitions>
-        <Menu Grid.Row="0">
-            <MenuItem Header="文件(_F)">
-                <avalonDock:MenuItemEx Header="退出" InputGestureText="Alt+F4" />
-            </MenuItem>
-            <MenuItem Header="编辑(_E)">
-            </MenuItem>
-            <MenuItem Header="视图(_V)" DataContext="{ Binding WindowsManager}">
-                <MenuItem Header="项目资源管理器" CommandParameter="ProjectResourceManager" Command="{Binding OpenToolWindows}" />
-                <MenuItem Header="属性窗口" CommandParameter="PropertySetting" Command="{Binding OpenToolWindows}" />
-                <MenuItem Header="工具箱" CommandParameter="Toolbox" Command="{Binding OpenToolWindows}" />
-            </MenuItem>
-            <MenuItem Header="项目(_P)"></MenuItem>
-            <MenuItem Header="窗口(_W)"></MenuItem>
-            <MenuItem Header="帮助(_H)"></MenuItem>
-        </Menu>
-        <ToolBarTray Grid.Row="1">
-
-        </ToolBarTray>
-        <avalonDock:DockingManager DataContext="{Binding WindowsManager}" Grid.Row="2" Name="dockingManger"
-                                   DocumentsSource="{Binding Documents}" 
-                                   AnchorablesSource="{Binding Tools}"
-                                   ActiveContent="{Binding ActiveContent,Mode=TwoWay}"
-                                   >
-            <avalonDock:DockingManager.Theme>
-                <avalonDock:VS2010Theme/>
-            </avalonDock:DockingManager.Theme>
-            <avalonDock:DockingManager.LayoutItemContainerStyleSelector>
-                <pane:PanesStyleSelector>
-                    <pane:PanesStyleSelector.ToolStyle>
-                        <Style TargetType="{x:Type avalonDock:LayoutAnchorableItem}">
-                            <Setter Property="Title" Value="{Binding Model.Title}"/>
-                            <Setter Property="IconSource" Value="{Binding Model.IconSource}"/>
-                            <Setter Property="Visibility" Value="{Binding Model.IsVisible, Mode=TwoWay, Converter={StaticResource BoolToVisibilityConverter}, ConverterParameter={x:Static Visibility.Hidden}}"/>
-                            <Setter Property="ContentId" Value="{Binding Model.ContentId}"/>
-                            <Setter Property="IsSelected" Value="{Binding Model.IsSelected, Mode=TwoWay}"/>
-                            <Setter Property="IsActive" Value="{Binding Model.IsActive, Mode=TwoWay}"/>
-                        </Style>
-                    </pane:PanesStyleSelector.ToolStyle>
-                    <pane:PanesStyleSelector.DocumentStyle>
-                        <Style TargetType="{x:Type avalonDock:LayoutItem}">
-                            <Setter Property="Title" Value="{Binding Model.Title}"/>
-                            <Setter Property="IconSource" Value="{Binding Model.IconSource}"/>
-                            <Setter Property="ToolTip" Value="{Binding Model.ToolTip}"/>
-                            <Setter Property="CloseCommand" Value="{Binding Model.CloseCommand}"/>
-                            <Setter Property="ContentId" Value="{Binding Model.ContentId}"/>
-                        </Style>
-                    </pane:PanesStyleSelector.DocumentStyle>
-                </pane:PanesStyleSelector>
-            </avalonDock:DockingManager.LayoutItemContainerStyleSelector>
-            <avalonDock:DockingManager.LayoutItemTemplateSelector>
-                <pane:PanesTemplateSelector>
-                    <pane:PanesTemplateSelector.ProjectResourceManager>
-                        <DataTemplate>
-                            <!--<view:ProjectResourceManager />-->
-                        </DataTemplate>
-                    </pane:PanesTemplateSelector.ProjectResourceManager>
-                    <pane:PanesTemplateSelector.PropertySetting>
-                        <DataTemplate>
-                            <!--<view:PropertySetting />-->
-                        </DataTemplate>
-                    </pane:PanesTemplateSelector.PropertySetting>
-                    <pane:PanesTemplateSelector.Toolbox>
-                        <DataTemplate>
-                            <!--<view:Toolbox />-->
-                        </DataTemplate>
-                    </pane:PanesTemplateSelector.Toolbox>
-                    <pane:PanesTemplateSelector.WorkflowDesigner>
-                        <DataTemplate>
-                            <!--<view:WorkflowsDesigner />-->
-                        </DataTemplate>
-                    </pane:PanesTemplateSelector.WorkflowDesigner>
-                    <pane:PanesTemplateSelector.EntityDesigner>
-                        <DataTemplate>
-                            <!--<view:EntityDesigner />-->
-                        </DataTemplate>
-                    </pane:PanesTemplateSelector.EntityDesigner>
-                    <pane:PanesTemplateSelector.StartPage>
-                        <DataTemplate>
-                            <!--<view:StartPage />-->
-                        </DataTemplate>
-                    </pane:PanesTemplateSelector.StartPage>
-                    <pane:PanesTemplateSelector.UIDesigner>
-                        <DataTemplate>
-                            <!--<view:UIDesigner />-->
-                        </DataTemplate>
-                    </pane:PanesTemplateSelector.UIDesigner>
-                </pane:PanesTemplateSelector>
-            </avalonDock:DockingManager.LayoutItemTemplateSelector>
-        </avalonDock:DockingManager>
-        <StatusBar Grid.Row="3">
-            <StatusBarItem Content="{Binding StatuInfo}"/>
-        </StatusBar>
+       
     </Grid>
 </Window>

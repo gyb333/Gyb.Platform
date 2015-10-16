@@ -2,11 +2,11 @@ D:\K3\Gyb.Platform\Gyb.FrameWork.Domain\bin\Debug\Gyb.FrameWork.Domain.dll
 D:\K3\Gyb.Platform\Gyb.FrameWork.Domain\bin\Debug\Gyb.FrameWork.Domain.pdb
 D:\K3\Gyb.Platform\Gyb.FrameWork.Domain\bin\Debug\EmitMapper.dll
 D:\K3\Gyb.Platform\Gyb.FrameWork.Domain\bin\Debug\EntityFramework.dll
+D:\K3\Gyb.Platform\Gyb.FrameWork.Domain\bin\Debug\Gyb.FrameWork.Common.dll
 D:\K3\Gyb.Platform\Gyb.FrameWork.Domain\bin\Debug\NHibernate.dll
+D:\K3\Gyb.Platform\Gyb.FrameWork.Domain\bin\Debug\Gyb.FrameWork.Common.pdb
 D:\K3\Gyb.Platform\Gyb.FrameWork.Domain\bin\Debug\EntityFramework.xml
 D:\K3\Gyb.Platform\Gyb.FrameWork.Domain\bin\Debug\NHibernate.xml
+D:\K3\Gyb.Platform\Gyb.FrameWork.Domain\obj\Debug\Gyb.FrameWork.Domain.csprojResolveAssemblyReference.cache
 D:\K3\Gyb.Platform\Gyb.FrameWork.Domain\obj\Debug\Gyb.FrameWork.Domain.dll
 D:\K3\Gyb.Platform\Gyb.FrameWork.Domain\obj\Debug\Gyb.FrameWork.Domain.pdb
-D:\K3\Gyb.Platform\Gyb.FrameWork.Domain\obj\Debug\Gyb.FrameWork.Domain.csprojResolveAssemblyReference.cache
-D:\K3\Gyb.Platform\Gyb.FrameWork.Domain\bin\Debug\Gyb.FrameWork.Common.dll
-D:\K3\Gyb.Platform\Gyb.FrameWork.Domain\bin\Debug\Gyb.FrameWork.Common.pdb

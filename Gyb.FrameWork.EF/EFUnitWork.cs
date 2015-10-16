@@ -25,7 +25,7 @@ namespace Gyb.FrameWork.EF
         public EFUnitWork(IDbContextFactory dbContextFactory)
         {
             _dbContext = dbContextFactory.GetDbContext();
-
+            _repositories = new Hashtable();
         }
 
 

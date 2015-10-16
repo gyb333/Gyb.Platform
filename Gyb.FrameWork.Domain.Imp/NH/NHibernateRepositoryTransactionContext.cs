@@ -49,5 +49,30 @@ namespace Gyb.FrameWork.Domain
                 dbSession.Close();
         }
         #endregion
+
+        IRepository<TEntity> IRepositoryTransactionContext.GetRepository<TEntity>()
+        {
+            throw new NotImplementedException();
+        }
+
+        void IRepositoryTransactionContext.BeginTransaction()
+        {
+            throw new NotImplementedException();
+        }
+
+        void IRepositoryTransactionContext.Commit()
+        {
+            throw new NotImplementedException();
+        }
+
+        void IRepositoryTransactionContext.Rollback()
+        {
+            throw new NotImplementedException();
+        }
+
+        void IDisposable.Dispose()
+        {
+            throw new NotImplementedException();
+        }
     } 
 }

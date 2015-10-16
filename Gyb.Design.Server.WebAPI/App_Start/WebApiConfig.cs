@@ -24,11 +24,11 @@ namespace Gyb.Design.Server.WebAPI
             //);
 
             ODataConventionModelBuilder builder = new ODataConventionModelBuilder();
-            builder.EntitySet<Entity>("Entities");
-            builder.EntitySet<Project>("Projects");
-            builder.EntitySet<Screen>("Screens");
-            builder.EntitySet<Workflow>("Workflows");
-            builder.EntitySet<Query>("Queries");
+            //builder.EntitySet<Entity>("Entities");
+            //builder.EntitySet<Project>("Projects");
+            //builder.EntitySet<Screen>("Screens");
+            //builder.EntitySet<Workflow>("Workflows");
+            //builder.EntitySet<Query>("Queries");
 
             config.MapODataServiceRoute(
                routeName: "ODataRoute",

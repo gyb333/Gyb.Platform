@@ -42,16 +42,9 @@ namespace Gyb.Design.Server.Data
         #endregion
 
 
-        public DbSet<Entity> Entities { get; set; }
+        //public DbSet<Entity> Entities { get; set; }
 
-        public DbSet<Query> Queries { get; set; }
-
-        public DbSet<Screen> Screens { get; set; }
-
-        public DbSet<Project> Projects { get; set; }
-
-        public DbSet<Workflow> Workflows { get; set; }
-
+   
 
         protected override void OnModelCreating(DbModelBuilder modelBuilder)
         {

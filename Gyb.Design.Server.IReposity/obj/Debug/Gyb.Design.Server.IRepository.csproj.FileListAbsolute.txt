@@ -1,0 +1,11 @@
+D:\K3\Gyb.Platform\Gyb.Design.Server.IReposity\bin\Debug\Gyb.Design.Server.IRepository.dll
+D:\K3\Gyb.Platform\Gyb.Design.Server.IReposity\bin\Debug\Gyb.Design.Server.IRepository.pdb
+D:\K3\Gyb.Platform\Gyb.Design.Server.IReposity\bin\Debug\EntityFramework.dll
+D:\K3\Gyb.Platform\Gyb.Design.Server.IReposity\bin\Debug\Gyb.Design.Server.Entities.dll
+D:\K3\Gyb.Platform\Gyb.Design.Server.IReposity\bin\Debug\Gyb.FrameWork.Common.dll
+D:\K3\Gyb.Platform\Gyb.Design.Server.IReposity\bin\Debug\Gyb.Design.Server.Entities.pdb
+D:\K3\Gyb.Platform\Gyb.Design.Server.IReposity\bin\Debug\EntityFramework.xml
+D:\K3\Gyb.Platform\Gyb.Design.Server.IReposity\bin\Debug\Gyb.FrameWork.Common.pdb
+D:\K3\Gyb.Platform\Gyb.Design.Server.IReposity\obj\Debug\Gyb.Design.Server.IRepository.csprojResolveAssemblyReference.cache
+D:\K3\Gyb.Platform\Gyb.Design.Server.IReposity\obj\Debug\Gyb.Design.Server.IRepository.dll
+D:\K3\Gyb.Platform\Gyb.Design.Server.IReposity\obj\Debug\Gyb.Design.Server.IRepository.pdb

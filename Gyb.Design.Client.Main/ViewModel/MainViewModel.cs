@@ -12,19 +12,9 @@ namespace Gyb.Design.Client.Main.ViewModel
     public class MainViewModel : ViewModelBase
     {
 
-        private WindowsManagerViewModel _WindowsManager = new WindowsManagerViewModel();
-        public WindowsManagerViewModel WindowsManager
-        {
-            get { return _WindowsManager; }
-            private set { _WindowsManager = value; }
-        }
+       
 
 
-        private string _StatuInfo = "就绪";
-        public string StatuInfo
-        {
-            get { return _StatuInfo; }
-            set { this.Set<string>(ref _StatuInfo, value, "StatuInfo"); }
-        }
+       
     }
 }

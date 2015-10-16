@@ -9,8 +9,8 @@ namespace Gyb.FrameWork.Domain
 {
     public interface IRepositoryTransactionContext : IDisposable
     {
-        IRepository<TEntity> GetRepository<TEntity>()
-            where TEntity : IAggregateRoot;
+        //IRepository<TEntity> GetRepository<TEntity>()
+        //    where TEntity : IAggregateRoot;
         void BeginTransaction();
         void Commit();
         void Rollback();

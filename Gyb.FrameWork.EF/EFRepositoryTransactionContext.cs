@@ -12,9 +12,9 @@ namespace Gyb.FrameWork.Domain.Imp.EF
     /// <summary>
     /// 自定义事务处理
     /// </summary>
-    public class EFRepositoryTransactionContext:IRepositoryTransactionContext
+    public class EFRepositoryTransactionContext : IRepositoryTransactionContext
     {
-        private Dictionary<Type, object> repositoryCache = new Dictionary<Type, object>();
+
         private IDbContextFactory factory;
 
 
@@ -27,16 +27,7 @@ namespace Gyb.FrameWork.Domain.Imp.EF
             this.factory = factory;
         }
 
-        public IRepository<TEntity> GetRepository<TEntity>() where TEntity :  EntityObject, IAggregateRoot
-        {
-            if (repositoryCache.ContainsKey(typeof(TEntity)))
-            {
-                return (IRepository<TEntity>)repositoryCache[typeof(TEntity)];
-            }
-            IRepository<TEntity> repository = new EFRepository<TEntity>(factory);
-            this.repositoryCache.Add(typeof(TEntity), repository);
-            return repository;
-        }
+     
 
         public void BeginTransaction()
         {
@@ -53,7 +44,7 @@ namespace Gyb.FrameWork.Domain.Imp.EF
             transaction.Rollback();
         }
 
-       
+
 
         public void Dispose()
         {

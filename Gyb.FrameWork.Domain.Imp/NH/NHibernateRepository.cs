@@ -119,5 +119,40 @@ namespace Gyb.FrameWork.Domain
         {
             throw new NotImplementedException();
         }
+
+        public bool IsContains(System.Linq.Expressions.Expression<Func<TEntity, bool>> predicate)
+        {
+            throw new NotImplementedException();
+        }
+
+        public TEntity Find(object id)
+        {
+            throw new NotImplementedException();
+        }
+
+        public IEnumerable<TEntity> GetDataByPaged<KProperty>(int pageIndex, int pageSize, out int total, Func<TEntity, bool> filter, Func<TEntity, KProperty> orderBy, bool ascending = true, string[] includes = null)
+        {
+            throw new NotImplementedException();
+        }
+
+        public IEnumerable<TEntity> GetDataByFiltered<KProperty>(Func<TEntity, bool> filter, Func<TEntity, KProperty> orderBy, bool ascending = true, string[] includes = null)
+        {
+            throw new NotImplementedException();
+        }
+
+        public IQueryable<TEntity> GetData(System.Linq.Expressions.Expression<Func<TEntity, bool>> filter = null, Func<IQueryable<TEntity>, IOrderedQueryable<TEntity>> orderBy = null, string includeProperties = "")
+        {
+            throw new NotImplementedException();
+        }
+
+        public IQueryable<TEntity> GetDataByPaged(System.Linq.Expressions.Expression<Func<TEntity, bool>> filter, out int total, int index = 0, int size = 50)
+        {
+            throw new NotImplementedException();
+        }
+
+        public IQueryable<TEntity> GetData(System.Linq.Expressions.Expression<Func<TEntity, bool>> predicate)
+        {
+            throw new NotImplementedException();
+        }
     } 
 }
