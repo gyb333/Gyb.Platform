@@ -1,0 +1,8 @@
+D:\K3\Gyb.Platform\Gyb.Design.Server.Repository\obj\Debug\Gyb.Server.Repository.csprojResolveAssemblyReference.cache
+D:\K3\Gyb.Platform\Gyb.Design.Server.Repository\obj\Debug\Gyb.Server.Repository.dll
+D:\K3\Gyb.Platform\Gyb.Design.Server.Repository\obj\Debug\Gyb.Server.Repository.pdb
+D:\K3\Output\Gyb.Server.Repository.dll
+D:\K3\Output\Gyb.Server.Repository.pdb
+D:\K3\Gyb.Platform\Gyb.Server.Repository\obj\Debug\Gyb.Server.Repository.csprojResolveAssemblyReference.cache
+D:\K3\Gyb.Platform\Gyb.Server.Repository\obj\Debug\Gyb.Server.Repository.dll
+D:\K3\Gyb.Platform\Gyb.Server.Repository\obj\Debug\Gyb.Server.Repository.pdb

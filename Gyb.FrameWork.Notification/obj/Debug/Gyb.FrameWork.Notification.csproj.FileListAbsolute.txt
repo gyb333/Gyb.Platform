@@ -1,4 +1,2 @@
 D:\K3\Gyb.Platform\Gyb.FrameWork.Notification\bin\Debug\Gyb.FrameWork.Notification.dll
 D:\K3\Gyb.Platform\Gyb.FrameWork.Notification\bin\Debug\Gyb.FrameWork.Notification.pdb
-D:\K3\Gyb.Platform\Gyb.FrameWork.Notification\obj\Debug\Gyb.FrameWork.Notification.dll
-D:\K3\Gyb.Platform\Gyb.FrameWork.Notification\obj\Debug\Gyb.FrameWork.Notification.pdb
