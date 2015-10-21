@@ -1,0 +1,4 @@
+D:\K3\Output\Gyb.Client.IServices.dll
+D:\K3\Output\Gyb.Client.IServices.pdb
+D:\K3\Gyb.Platform\Gyb.Client.IServices\obj\Debug\Gyb.Client.IServices.dll
+D:\K3\Gyb.Platform\Gyb.Client.IServices\obj\Debug\Gyb.Client.IServices.pdb

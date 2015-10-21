@@ -1,2 +1,7 @@
 D:\K3\Gyb.Platform\Gyb.FrameWork.Configuration\bin\Debug\Gyb.FrameWork.Configuration.dll
 D:\K3\Gyb.Platform\Gyb.FrameWork.Configuration\bin\Debug\Gyb.FrameWork.Configuration.pdb
+D:\K3\Output\Gyb.FrameWork.Configuration.dll
+D:\K3\Output\Gyb.FrameWork.Configuration.pdb
+D:\K3\Gyb.Platform\Gyb.FrameWork.Configuration\obj\Debug\Gyb.FrameWork.Configuration.csprojResolveAssemblyReference.cache
+D:\K3\Gyb.Platform\Gyb.FrameWork.Configuration\obj\Debug\Gyb.FrameWork.Configuration.dll
+D:\K3\Gyb.Platform\Gyb.FrameWork.Configuration\obj\Debug\Gyb.FrameWork.Configuration.pdb

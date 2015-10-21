@@ -1,0 +1,5 @@
+D:\K3\Output\Gyb.Client.ODataProxy.dll
+D:\K3\Output\Gyb.Client.ODataProxy.pdb
+D:\K3\Gyb.Platform\Gyb.Client.ODataProxy\obj\Debug\Gyb.Client.ODataProxy.csprojResolveAssemblyReference.cache
+D:\K3\Gyb.Platform\Gyb.Client.ODataProxy\obj\Debug\Gyb.Client.ODataProxy.dll
+D:\K3\Gyb.Platform\Gyb.Client.ODataProxy\obj\Debug\Gyb.Client.ODataProxy.pdb

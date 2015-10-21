@@ -105,3 +105,6 @@ D:\K3\Gyb.Platform\Gyb.Server.WebAPI\bin\Gyb.Server.IRepository.dll
 D:\K3\Gyb.Platform\Gyb.Server.WebAPI\bin\Gyb.Server.Repository.dll
 D:\K3\Gyb.Platform\Gyb.Server.WebAPI\bin\Gyb.Server.IRepository.pdb
 D:\K3\Gyb.Platform\Gyb.Server.WebAPI\bin\Gyb.Server.Repository.pdb
+D:\K3\Output\Gyb.Server.WebAPI.dll.config
+D:\K3\Output\Gyb.Server.WebAPI.dll
+D:\K3\Output\Gyb.Server.WebAPI.pdb

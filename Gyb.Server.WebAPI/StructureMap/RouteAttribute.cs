@@ -9,8 +9,12 @@ namespace Gyb.Server.WebAPI.StructureMap
     [AttributeUsage(AttributeTargets.Method | AttributeTargets.Class, AllowMultiple = true, Inherited = true)]
     public class RouteAttribute : Attribute, IHttpRouteInfoProvider
     {
-        public RouteAttribute();
-        public RouteAttribute(string template);
+        public RouteAttribute()
+        {
+        }
+        public RouteAttribute(string template)
+        {
+        }
 
         public string Name { get; set; }
         public int Order { get; set; }

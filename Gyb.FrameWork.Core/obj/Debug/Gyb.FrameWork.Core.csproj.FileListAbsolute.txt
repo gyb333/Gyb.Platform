@@ -1,2 +1,6 @@
 D:\K3\Gyb.Platform\Gyb.FrameWork.Core\bin\Debug\Gyb.FrameWork.Core.dll
 D:\K3\Gyb.Platform\Gyb.FrameWork.Core\bin\Debug\Gyb.FrameWork.Core.pdb
+D:\K3\Output\Gyb.FrameWork.Core.dll
+D:\K3\Output\Gyb.FrameWork.Core.pdb
+D:\K3\Gyb.Platform\Gyb.FrameWork.Core\obj\Debug\Gyb.FrameWork.Core.dll
+D:\K3\Gyb.Platform\Gyb.FrameWork.Core\obj\Debug\Gyb.FrameWork.Core.pdb
