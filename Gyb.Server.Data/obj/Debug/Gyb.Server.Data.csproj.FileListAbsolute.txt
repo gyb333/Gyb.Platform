@@ -1,6 +1,0 @@
-D:\K3\Output\Gyb.Server.Data.dll.config
-D:\K3\Output\Gyb.Server.Data.dll
-D:\K3\Output\Gyb.Server.Data.pdb
-D:\K3\Gyb.Platform\Gyb.Server.Data\obj\Debug\Gyb.Server.Data.csprojResolveAssemblyReference.cache
-D:\K3\Gyb.Platform\Gyb.Server.Data\obj\Debug\Gyb.Server.Data.dll
-D:\K3\Gyb.Platform\Gyb.Server.Data\obj\Debug\Gyb.Server.Data.pdb

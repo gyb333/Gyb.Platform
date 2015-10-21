@@ -1,8 +1,3 @@
 D:\K3\Gyb.Platform\Gyb.Design.Server.IReposity\obj\Debug\Gyb.Server.IRepository.csprojResolveAssemblyReference.cache
 D:\K3\Gyb.Platform\Gyb.Design.Server.IReposity\obj\Debug\Gyb.Server.IRepository.dll
 D:\K3\Gyb.Platform\Gyb.Design.Server.IReposity\obj\Debug\Gyb.Server.IRepository.pdb
-D:\K3\Output\Gyb.Server.IRepository.dll
-D:\K3\Output\Gyb.Server.IRepository.pdb
-D:\K3\Gyb.Platform\Gyb.Server.IReposity\obj\Debug\Gyb.Server.IRepository.csprojResolveAssemblyReference.cache
-D:\K3\Gyb.Platform\Gyb.Server.IReposity\obj\Debug\Gyb.Server.IRepository.dll
-D:\K3\Gyb.Platform\Gyb.Server.IReposity\obj\Debug\Gyb.Server.IRepository.pdb
