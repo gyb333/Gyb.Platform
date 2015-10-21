@@ -97,3 +97,11 @@ D:\K3\Gyb.Platform\Gyb.Server.WebAPI\bin\ko\System.Spatial.resources.dll
 D:\K3\Gyb.Platform\Gyb.Server.WebAPI\bin\ru\System.Spatial.resources.dll
 D:\K3\Gyb.Platform\Gyb.Server.WebAPI\bin\zh-Hans\System.Spatial.resources.dll
 D:\K3\Gyb.Platform\Gyb.Server.WebAPI\bin\zh-Hant\System.Spatial.resources.dll
+D:\K3\Gyb.Platform\Gyb.Server.WebAPI\bin\StructureMap.dll
+D:\K3\Gyb.Platform\Gyb.Server.WebAPI\bin\WebApiContrib.IoC.StructureMap.dll
+D:\K3\Gyb.Platform\Gyb.Server.WebAPI\bin\StructureMap.pdb
+D:\K3\Gyb.Platform\Gyb.Server.WebAPI\bin\StructureMap.xml
+D:\K3\Gyb.Platform\Gyb.Server.WebAPI\bin\Gyb.Server.IRepository.dll
+D:\K3\Gyb.Platform\Gyb.Server.WebAPI\bin\Gyb.Server.Repository.dll
+D:\K3\Gyb.Platform\Gyb.Server.WebAPI\bin\Gyb.Server.IRepository.pdb
+D:\K3\Gyb.Platform\Gyb.Server.WebAPI\bin\Gyb.Server.Repository.pdb

@@ -53,11 +53,11 @@ namespace Gyb.Server.Data
 
         protected override void OnModelCreating(DbModelBuilder modelBuilder)
         {
-            //modelBuilder.Configurations.Add(new StudentMapper());
-            //modelBuilder.Configurations.Add(new SubjectMapper());
-            //modelBuilder.Configurations.Add(new TutorMapper());
-            //modelBuilder.Configurations.Add(new CourseMapper());
-            //modelBuilder.Configurations.Add(new EnrollmentMapper());
+            modelBuilder.Configurations.Add(new StudentMapper());
+            modelBuilder.Configurations.Add(new SubjectMapper());
+            modelBuilder.Configurations.Add(new TutorMapper());
+            modelBuilder.Configurations.Add(new CourseMapper());
+            modelBuilder.Configurations.Add(new EnrollmentMapper());
             base.OnModelCreating(modelBuilder);
         }
     }

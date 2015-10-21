@@ -13,7 +13,8 @@ namespace Gyb.Server.Data
         protected override void Seed(DataBaseContext context)
         {
 #if DEBUG
-            new DataBaseContextInitializer().Seed(context);
+            new LearningDataSeeder(context).Seed();
+            //new DataBaseContextInitializer().Seed(context);
 #endif
             base.Seed(context);
         }

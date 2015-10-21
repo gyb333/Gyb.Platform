@@ -52,6 +52,7 @@
     <Compile Include="DBConfiguration\ModelChangesDBConfiguration.cs" />
     <Compile Include="DBConfiguration\NotExistsDBConfiguration.cs" />
     <Compile Include="EntityConfiguration\BaseEntityConfiguration.cs" />
+    <Compile Include="LearningDataSeeder.cs" />
     <Compile Include="Learn\CourseMapper.cs" />
     <Compile Include="Learn\EnrollmentMapper.cs" />
     <Compile Include="Learn\StudentMapper.cs" />

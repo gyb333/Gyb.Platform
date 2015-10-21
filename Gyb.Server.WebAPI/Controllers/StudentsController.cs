@@ -13,6 +13,7 @@ using System.Web.OData;
 using System.Web.OData.Routing;
 using Gyb.Server.Data;
 using Gyb.Server.Entities;
+using Gyb.Server.WebAPI.filters;
 
 namespace Gyb.Server.WebAPI.Controllers
 {
@@ -32,6 +33,7 @@ namespace Gyb.Server.WebAPI.Controllers
         private DataBaseContext db = new DataBaseContext();
 
         // GET: odata/Students
+        [Base64AuthorizeAttribute()]
         [EnableQuery]
         public IQueryable<Student> GetStudents()
         {
@@ -39,6 +41,7 @@ namespace Gyb.Server.WebAPI.Controllers
         }
 
         // GET: odata/Students(5)
+        [Base64AuthorizeAttribute()]
         [EnableQuery]
         public SingleResult<Student> GetStudent([FromODataUri] int key)
         {
