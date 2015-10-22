@@ -9,6 +9,9 @@ using System.Web.Http.Filters;
 
 namespace Gyb.Server.WebAPI.StructureMap
 {
+    /// <summary>
+    /// 获取过滤器
+    /// </summary>
     public class StructureMapFilterProvider : IFilterProvider
     {
         private IContainer _container;

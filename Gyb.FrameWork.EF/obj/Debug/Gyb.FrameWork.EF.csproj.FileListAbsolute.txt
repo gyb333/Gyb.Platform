@@ -8,3 +8,9 @@ D:\K3\Gyb.Platform\Gyb.FrameWork.EF\bin\Debug\Gyb.FrameWork.Common.dll
 D:\K3\Gyb.Platform\Gyb.FrameWork.EF\bin\Debug\Gyb.FrameWork.Domain.pdb
 D:\K3\Gyb.Platform\Gyb.FrameWork.EF\bin\Debug\EntityFramework.xml
 D:\K3\Gyb.Platform\Gyb.FrameWork.EF\bin\Debug\Gyb.FrameWork.Common.pdb
+D:\K3\Output\Gyb.FrameWork.EF.dll.config
+D:\K3\Output\Gyb.FrameWork.EF.dll
+D:\K3\Output\Gyb.FrameWork.EF.pdb
+D:\K3\Gyb.Platform\Gyb.FrameWork.EF\obj\Debug\Gyb.FrameWork.EF.csprojResolveAssemblyReference.cache
+D:\K3\Gyb.Platform\Gyb.FrameWork.EF\obj\Debug\Gyb.FrameWork.EF.dll
+D:\K3\Gyb.Platform\Gyb.FrameWork.EF\obj\Debug\Gyb.FrameWork.EF.pdb

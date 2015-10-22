@@ -33,7 +33,7 @@ namespace Gyb.Server.WebAPI.Controllers
         private DataBaseContext db = new DataBaseContext();
 
         // GET: odata/Students
-        [Base64AuthorizeAttribute()]
+        //[Base64AuthorizeAttribute()]
         [EnableQuery]
         public IQueryable<Student> GetStudents()
         {

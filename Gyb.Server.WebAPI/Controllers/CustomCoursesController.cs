@@ -8,6 +8,7 @@ using System.Linq;
 using System.Net;
 using System.Net.Http;
 using System.Web.Http;
+using System.Web.Http.Controllers;
 
 namespace Gyb.Server.WebAPI.Controllers
 {
@@ -27,7 +28,8 @@ namespace Gyb.Server.WebAPI.Controllers
         [Gyb.Server.WebAPI.filters.ForceHttps()]
         public List<Course> Get()
         {
-            
+            //HttpActionDescriptor actionDescriptor = this.Configuration.Services.GetActionSelector().SelectAction(this.ControllerContext);
+            //var  filtersInfo = actionDescriptor.GetFilterPipeline();
 
             return _repository.GetAllCourses().ToList();
         }

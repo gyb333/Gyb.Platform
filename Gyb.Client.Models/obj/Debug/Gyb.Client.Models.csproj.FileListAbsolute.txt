@@ -1,0 +1,4 @@
+D:\K3\Output\Gyb.Client.Models.dll
+D:\K3\Output\Gyb.Client.Models.pdb
+D:\K3\Gyb.Platform\Gyb.Client.Models\obj\Debug\Gyb.Client.Models.dll
+D:\K3\Gyb.Platform\Gyb.Client.Models\obj\Debug\Gyb.Client.Models.pdb
