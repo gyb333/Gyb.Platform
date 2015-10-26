@@ -1,0 +1,7 @@
+D:\K3\Gyb.Platform\Gyb.FrameWork.RepositoryUnitOfWork\obj\Debug\Gyb.FrameWork.RepositoryUnitOfWork.csprojResolveAssemblyReference.cache
+D:\K3\Gyb.Platform\Gyb.FrameWork.RepositoryUnitOfWork\bin\Debug\Gyb.FrameWork.RepositoryUnitOfWork.dll
+D:\K3\Gyb.Platform\Gyb.FrameWork.RepositoryUnitOfWork\bin\Debug\Gyb.FrameWork.RepositoryUnitOfWork.pdb
+D:\K3\Gyb.Platform\Gyb.FrameWork.RepositoryUnitOfWork\bin\Debug\Gyb.FrameWork.IRepositoryUOW.dll
+D:\K3\Gyb.Platform\Gyb.FrameWork.RepositoryUnitOfWork\bin\Debug\Gyb.FrameWork.IRepositoryUOW.pdb
+D:\K3\Gyb.Platform\Gyb.FrameWork.RepositoryUnitOfWork\obj\Debug\Gyb.FrameWork.RepositoryUnitOfWork.dll
+D:\K3\Gyb.Platform\Gyb.FrameWork.RepositoryUnitOfWork\obj\Debug\Gyb.FrameWork.RepositoryUnitOfWork.pdb

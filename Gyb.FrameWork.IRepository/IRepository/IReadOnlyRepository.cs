@@ -1,12 +1,12 @@
 ﻿using System;
 using System.Collections.Generic;
-using System.Data.Entity.Core.Objects.DataClasses;
+ 
 using System.Linq;
 using System.Linq.Expressions;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace Gyb.FrameWork.Domain
+namespace Gyb.FrameWork.IRepositoryUOW
 {
     /// <summary>
     /// 提供聚合
@@ -14,12 +14,10 @@ namespace Gyb.FrameWork.Domain
     /// </summary>
     /// <typeparam name="TEntity"></typeparam>
     /// <typeparam name="E"></typeparam>
-    public interface IReadOnlyRepository<TEntity> where TEntity :  IAggregateRoot
+    public interface IReadOnlyRepository<TEntity> where TEntity : IAggregateRoot, IObjectState
     {      
         bool IsContains(Expression<Func<TEntity, bool>> predicate);
 
-
-        TEntity Find(object id);
 
         
         TEntity Find(params object[] keys);

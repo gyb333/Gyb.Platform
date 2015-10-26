@@ -4,11 +4,11 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProjectGuid>{9E4AD76E-00F5-42E6-A0CA-B34ABCDF6C48}</ProjectGuid>
+    <ProjectGuid>{45B71619-FBF3-48BC-BFC2-9804825B9F91}</ProjectGuid>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
-    <RootNamespace>Gyb.FrameWork.Domain</RootNamespace>
-    <AssemblyName>Gyb.FrameWork.Domain</AssemblyName>
+    <RootNamespace>Gyb.FrameWork.IRepositoryUOW</RootNamespace>
+    <AssemblyName>Gyb.FrameWork.IRepositoryUOW</AssemblyName>
     <TargetFrameworkVersion>v4.5</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
   </PropertyGroup>
@@ -30,18 +30,8 @@
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
   <ItemGroup>
-    <Reference Include="EmitMapper">
-      <HintPath>..\packages\EmitMapper.1.0.0\lib\EmitMapper.dll</HintPath>
-    </Reference>
-    <Reference Include="EntityFramework">
-      <HintPath>..\packages\EntityFramework.6.1.3\lib\net45\EntityFramework.dll</HintPath>
-    </Reference>
-    <Reference Include="NHibernate">
-      <HintPath>..\packages\NHibernate.4.0.4.4000\lib\net40\NHibernate.dll</HintPath>
-    </Reference>
     <Reference Include="System" />
     <Reference Include="System.Core" />
-    <Reference Include="System.Transactions" />
     <Reference Include="System.Xml.Linq" />
     <Reference Include="System.Data.DataSetExtensions" />
     <Reference Include="Microsoft.CSharp" />
@@ -49,34 +39,18 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="IContainerFactory.cs" />
+    <Compile Include="IAggregateRoot.cs" />
+    <Compile Include="IEntity.cs" />
     <Compile Include="IObjectState.cs" />
+    <Compile Include="IRepository\IReadOnlyRepository.cs" />
+    <Compile Include="IRepository\IRepository.cs" />
+    <Compile Include="IRepository\IRepositoryAsync.cs" />
+    <Compile Include="IRepository\IRepositoryTransactionContext.cs" />
+    <Compile Include="IUnitOfWork\IUnitOfWork.cs" />
+    <Compile Include="IUnitOfWork\IUnitOfWorkAsync.cs" />
+    <Compile Include="IUnitOfWork\IUnitOfWorkRepository.cs" />
     <Compile Include="ObjectState.cs" />
-    <Compile Include="Repository\IRepositoryAsync.cs" />
-    <Compile Include="UnitOfWork\IUnitOfWorkAsync.cs" />
-    <Compile Include="UnitOfWork\UnitOfWorkRepository.cs" />
-    <Compile Include="UnitOfWork\UnitOfWork.cs" />
-    <Compile Include="UnitOfWork\AggregateRoot.cs" />
-    <Compile Include="UnitOfWork\AggregateRootAttribute .cs" />
-    <Compile Include="Repository\IRepositoryTransactionContext.cs" />
-    <Compile Include="ISpecification.cs" />
-    <Compile Include="UnitOfWork\IAggregateRoot.cs" />
-    <Compile Include="UnitOfWork\IEntity.cs" />
-    <Compile Include="Repository\IReadOnlyRepository.cs" />
-    <Compile Include="Repository\IRepository.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
-    <Compile Include="Specification.cs" />
-    <Compile Include="UnitOfWork\IUnitOfWork.cs" />
-    <Compile Include="UnitOfWork\IUnitOfWorkRepository.cs" />
-  </ItemGroup>
-  <ItemGroup>
-    <None Include="packages.config" />
-  </ItemGroup>
-  <ItemGroup>
-    <ProjectReference Include="..\Gyb.FrameWork.Common\Gyb.FrameWork.Common.csproj">
-      <Project>{9aac6c23-b7bc-4a1b-8a9c-9337d57ce191}</Project>
-      <Name>Gyb.FrameWork.Common</Name>
-    </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 

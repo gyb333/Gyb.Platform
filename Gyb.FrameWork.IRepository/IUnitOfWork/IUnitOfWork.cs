@@ -1,11 +1,11 @@
 ﻿using System;
 using System.Collections.Generic;
-using System.Data.Entity.Core.Objects.DataClasses;
+using System.Data;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace Gyb.FrameWork.Domain.UnitOfWork
+namespace Gyb.FrameWork.IRepositoryUOW
 {
     public interface IUnitOfWork
     {
@@ -18,11 +18,11 @@ namespace Gyb.FrameWork.Domain.UnitOfWork
 
         IRepository<T> Repository<T>() where T :  IAggregateRoot, IObjectState;
 
- 
-        bool IsCommitted { get; }
+        void BeginTransaction(IsolationLevel isolationLevel = IsolationLevel.Unspecified);
+        bool Commit();
+        void Rollback();
 
-        void Commit();
+        bool IsCommitted { get; }
  
-         void Rollback();
     }
 }
